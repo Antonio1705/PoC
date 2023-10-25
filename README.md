@@ -1,1 +1,2 @@
 # PoCService
+The PoC Database Service is a simple RESTful application designed to showcase the fundamentals of database interaction within a Java Spring Boot environment. The service enables the storage, update, retrieval, and deletion of records, with each record having a unique ID and a name as a string. This service is primarily intended to illustrate the capabilities of Spring Boot in handling database operations.
