@@ -131,4 +131,12 @@ class NameServiceTest {
         Assertions.assertThat(nameEntity).isNull();
     }
 
+    @Test
+    void getAllNames() {
+        List<NameEntity> getAllNames = nameService.getAllNames();
+
+        Assertions.assertThat(getAllNames).isNotNull();
+
+
+    }
 }

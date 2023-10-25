@@ -22,6 +22,11 @@ public class NameController {
         return new ResponseEntity<>(nameService.getNameByName(name), HttpStatus.OK);
     }
 
+    @GetMapping("/name")
+    public ResponseEntity<List<NameEntity>> getAllNames(@PathVariable String name){
+        return new ResponseEntity<>(nameService.getAllNames(), HttpStatus.OK);
+    }
+
     @GetMapping("/name/id/{id}")
     public ResponseEntity<NameEntity> getNameById(@PathVariable Integer id){
         return new ResponseEntity<>(nameService.getNameById(id), HttpStatus.OK);

@@ -24,6 +24,10 @@ public class NameService {
 
     }
 
+    public List<NameEntity> getAllNames(){
+        return (List<NameEntity>) nameRepository.findAll();
+    }
+
     public void deleteNameEntityById(Integer id){
         nameRepository.deleteById(id);
     }
