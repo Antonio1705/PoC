@@ -9,5 +9,4 @@ public class PocServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PocServiceApplication.class, args);
 	}
-
 }
