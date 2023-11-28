@@ -23,7 +23,7 @@ public class NameController {
     }
 
     @GetMapping("/name")
-    public ResponseEntity<List<NameEntity>> getAllNames(@PathVariable String name){
+    public ResponseEntity<List<NameEntity>> getAllNames(){
         return new ResponseEntity<>(nameService.getAllNames(), HttpStatus.OK);
     }
 

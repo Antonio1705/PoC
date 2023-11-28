@@ -1,0 +1,63 @@
+= *pocService Documentation*
+
+*Create-Name*
+
+.request
+include::{snippets}/Create-Name/http-request.adoc[]
+?????? String
+
+.response
+include::{snippets}/Create-Name/http-response.adoc[]
+
+---
+*Get-Name-By-Name*
+
+.request
+include::{snippets}/get-nameBy-Name/http-request.adoc[]
+
+.response
+include::{snippets}/get-nameBy-Name/http-response.adoc[]
+
+.NameEntity Attributes
+include::{snippets}/get-nameBy-Name/response-fields.adoc[]
+
+---
+*Get-ALL-Names*
+
+.request
+include::{snippets}/get-all-names/http-request.adoc[]
+
+returns a List of Names
+
+.response
+include::{snippets}/get-all-names/http-response.adoc[]
+
+---
+*Get-Name-By-Id*
+
+.request
+include::{snippets}/Get-NameEntity-By-Id/http-request.adoc[]
+
+.response
+include::{snippets}/Get-NameEntity-By-Id/http-response.adoc[]
+
+---
+*Delete-NameEntity*
+
+.request
+include::{snippets}/Delete-Name-By-Id/http-request.adoc[]
+
+.response
+include::{snippets}/Delete-Name-By-Id/http-response.adoc[]
+---
+*Update-NameEntity*
+
+.request
+include::{snippets}/Update-Name-By-Id/http-request.adoc[]
+
+String updated???
+
+
+.response
+include::{snippets}/Update-Name-By-Id/http-response.adoc[]
+
